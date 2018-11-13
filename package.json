@@ -5,7 +5,7 @@
     "version": "0.0.1",
     "publisher": "malmaud",
     "engines": {
-        "vscode": "^1.29.0"
+        "vscode": "^1.20.0"
     },
     "categories": [
         "Programming Languages"
@@ -22,5 +22,9 @@
             "scopeName": "source.tmux",
             "path": "./syntaxes/tmux.tmLanguage.json"
         }]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/malmaud/vscode_tmux"
     }
 }
