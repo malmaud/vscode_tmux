@@ -2,7 +2,7 @@
     "name": "tmux",
     "displayName": "tmux",
     "description": "tmux language support",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "publisher": "malmaud",
     "engines": {
         "vscode": "^1.20.0"
@@ -11,17 +11,25 @@
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "tmux",
-            "aliases": ["tmux"],
-            "extensions": [".tmux.conf"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "tmux",
-            "scopeName": "source.tmux",
-            "path": "./syntaxes/tmux.tmLanguage.json"
-        }]
+        "languages": [
+            {
+                "id": "tmux",
+                "aliases": [
+                    "tmux"
+                ],
+                "extensions": [
+                    ".tmux.conf"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "tmux",
+                "scopeName": "source.tmux",
+                "path": "./syntaxes/tmux.tmLanguage.json"
+            }
+        ]
     },
     "repository": {
         "type": "git",
