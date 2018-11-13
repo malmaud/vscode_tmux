@@ -1,0 +1,59 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "tmux",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#constants"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"begin": "#",
+			"end": "$",
+			"name": "comment.line.tmux"
+		},
+		{
+			"begin":  "'",
+			"end": "'",
+			"name": "string.quoted.single.tmux"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [
+				{
+					"name": "keyword.control.tmux",
+					"match": "\\b(unbind|bind|set|setw|set-window-option|set-option|bind-key)(?=\\s|^)"
+				}
+			]
+		},
+		"constants": {
+			"patterns": [
+				{
+					"name": "constant.language.tmux",
+					"match": "\\b(mouse|default-terminal|base-index|pane-base-index|mode-keys|status-keys|utf8|history-limit|prefix|send-prefix|mode-mouse|monitor-activity|split-window|resize-pane|select-pane|status-bg|status-fg|window-status-current-bg|window-status-current-fg|window-status-current-attr|status-interval|status-left-length|status-left|status-right)\\b"
+				},
+
+				{
+					"name": "constant.language.tmux",
+					"match": "\\b(off|on)\\b"
+				},
+				{
+					"name": "constant.numeric.tmux",
+					"match": "((C|M|S)-[a-zA-Z]+)|\\d+"
+				}
+			]
+		},
+		"strings": {
+			"name": "string.quoted.double.tmux",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": []
+		}
+	},
+	"scopeName": "source.tmux"
+}
