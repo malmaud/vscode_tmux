@@ -27,7 +27,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.tmux",
-					"match": "\\b(unbind|bind|set|setw|set-window-option|set-option|bind-key)(?=\\s|^)"
+					"match": "\\b(unbind|unbind-key|bind|set|setw|set-window-option|set-option|bind-key|if|if-shell|run-shell)(?=\\s|^)"
 				}
 			]
 		},
@@ -35,7 +35,7 @@
 			"patterns": [
 				{
 					"name": "constant.language.tmux",
-					"match": "\\b(mouse|default-terminal|base-index|pane-base-index|mode-keys|status-keys|utf8|history-limit|prefix|send-prefix|mode-mouse|monitor-activity|split-window|resize-pane|select-pane|status-bg|status-fg|window-status-current-bg|window-status-current-fg|window-status-current-attr|status-interval|status-left-length|status-left|status-right)\\b"
+					"match": "\\b(mouse|default-terminal|base-index|pane-base-index|mode-keys|status-keys|utf8|history-limit|prefix|send-prefix|mode-mouse|monitor-activity|split-window|resize-pane|select-pane|status-bg|status-fg|window-status-current-bg|window-status-current-fg|window-status-current-attr|status-interval|status-left-length|status-left|status-right|visual-activity|status-style)\\b"
 				},
 
 				{
