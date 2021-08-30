@@ -27,7 +27,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.tmux",
-					"match": "\\b(unbind|unbind-key|bind|set|setw|set-window-option|set-option|bind-key|if|if-shell|run-shell)(?=\\s|^)"
+					"match": "\\b(unbind|unbind-key|bind|set|setw|set-window-option|set-option|bind-key|if|if-shell|run-shell|select-window|display-message|list-sessions|list-windows|list-panes|new-window|split-window|new-session|respawn-window|respawn-pane|refresh-client|rename-session|kill-window|attach-session|detach-client|has-session|kill-server|kill-session|lock-client|source-file|start-server|suspend-client|switch-client|send-keys|send-prefix)(?=\\s|^)"
 				}
 			]
 		},
@@ -35,7 +35,7 @@
 			"patterns": [
 				{
 					"name": "constant.language.tmux",
-					"match": "\\b(mouse|default-terminal|base-index|pane-base-index|mode-keys|status-keys|utf8|history-limit|prefix|send-prefix|mode-mouse|monitor-activity|split-window|resize-pane|select-pane|status-bg|status-fg|window-status-current-bg|window-status-current-fg|window-status-current-attr|status-interval|status-left-length|status-left|status-right|visual-activity|status-style)\\b"
+					"match": "\\b(mouse|default-terminal|base-index|pane-base-index|mode-keys|status-keys|utf8|history-limit|prefix|send-prefix|mode-mouse|monitor-activity|split-window|resize-pane|select-pane|status-bg|status-fg|window-status-current-bg|window-status-current-fg|window-status-current-attr|status-interval|status-left-length|status-left|status-right|visual-activity|status-style|even-horizontal|even-vertical|main-horizontal|main-vertical|tiled|buffer-limit|command-alias|default-terminal|escape-time|exit-empty|exit-unattached|focus-events|history-file|message-limit|set-clipboard|terminal-overrides|user-keys|activity-action|assume-paste-time|base-index|bell-action|default-command|default-shell|default-size|destroy-unattached|detach-on-destroy|display-panes-active-colour|display-panes-colour|display-panes-time|display-time|history-limit|key-table|locker-after-time|lock-command|message-command-style|message-style|prefix2|renumber-windows|repeat-time|set-titles|set-titles-string|silence-action|status|status-format|status-interval|status-justify|status-keys|status-left|status-left-length|status-left-style|status-position|status-right|status-right-length|status-right-style|status-style|update-environment|visual-activity|visual-bell|visual-silence|word-separators|aggressive-resize|automatic-rename|automatic-rename-format)\\b"
 				},
 
 				{
