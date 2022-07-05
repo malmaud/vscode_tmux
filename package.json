@@ -18,7 +18,8 @@
                     "tmux"
                 ],
                 "extensions": [
-                    ".tmux.conf"
+                    ".tmux.conf",
+                    ".tmux"
                 ],
                 "configuration": "./language-configuration.json"
             }
