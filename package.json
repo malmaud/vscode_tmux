@@ -21,7 +21,10 @@
                     ".tmux.conf",
                     ".tmux"
                 ],
-                "configuration": "./language-configuration.json"
+                "configuration": "./language-configuration.json",
+                "filenames": [
+                    "tmux.conf"
+                ]
             }
         ],
         "grammars": [
