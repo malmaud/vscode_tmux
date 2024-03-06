@@ -27,7 +27,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.tmux",
-					"match": "\\b(unbind|unbind-key|bind|set|setw|set-window-option|set-option|bind-key|if|if-shell|run-shell|select-window|display-message|list-sessions|list-windows|list-panes|new-window|split-window|new-session|respawn-window|respawn-pane|refresh-client|rename-session|kill-window|attach-session|detach-client|has-session|kill-server|kill-session|lock-client|source-file|start-server|suspend-client|switch-client|send-keys|send-prefix)(?=\\s|^)"
+					"match": "\\b(unbind|unbind-key|bind|set|setw|set-window-option|set-option|bind-key|if|if-shell|run-shell|select-window|display-message|list-sessions|list-windows|list-panes|new-window|split-window|new-session|respawn-window|respawn-pane|refresh-client|rename-session|kill-window|attach-session|detach-client|has-session|kill-server|kill-session|lock-client|source-file|start-server|suspend-client|switch-client|send|send-keys|send-prefix)(?=\\s|^)"
 				}
 			]
 		},
